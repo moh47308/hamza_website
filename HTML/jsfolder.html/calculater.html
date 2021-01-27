@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>FUNCTION</title>
+</head>
+
+<body>
+<h2>FUNCTION </h2>
+ <script type="text/javascript">
+ 
+	function calculateAera(width,height)
+	{
+	 area= width * height
+	 return area;
+	}
+ </script>
+  <form name="frm" action="">
+    width:<input type="text" name="width" size="5">
+    height:<input type="text" name="height" size="5">  	
+    <input type="button" name="submit" value="calculateAera"
+	onclick="alert(calculateAera(document.frm.width.value,
+	document.frm.height.value))">
+  </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>onfocus onblur onchange</title>
+</head>
+<body> 
+  <script>
+  function foc(a)
+  {
+     a.style.background = "yellow";
+	 a.style.border = "2px solid black";
+  }
+  function ham(a)
+  {
+     alert ("you did not make any change")
+  }
+  function cha(a)
+  {
+      alert ("you made a change")
+  }
+  </script>
+<input type="text" size="40" onfocus="foc(this)" 
+onblur="ham(this)"  onchange="cha(this)">  
+</body>
+</html>

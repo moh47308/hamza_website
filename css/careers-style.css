@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black !important;
+}
+.navbar li a:hover{
+    color:#11A2DD !important;
+}
+       /* LOLO-STYLE   */
+.logo-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left:2%;
+}
+       /*  CONTACT HEADING STYLE  */
+.career-style{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.career-style h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 12%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.career-style h3{
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 16%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#link{
+    color: white;
+}
+.left-tri{
+    margin-top: -8%;
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top:   120px solid transparent;
+  border-bottom:120px solid transparent;   
+  border-right: 120px solid green; 
+}
+.life-style h1{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 60px;
+    color: green;
+}
+.life-style p{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 29px;
+    color: #838783;
+}
+.benefit-style h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 60px;
+    color: green;
+}
+.benefit-1-style img{
+    margin-top: 11px;
+}
+.benefit-1-style h3{
+    margin-top: -75px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 30%;
+}
+ .benefit-2-style h3{
+    margin-top: -108px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 31%;
+ }
+.benefit-3-style img{
+    margin-top: 40px;
+}
+.benefit-3-style h3{
+    margin-top: -108px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 31%;
+}
+.benefit-4-style img{
+    margin-top: 10%;
+}
+.benefit-4-style h3{
+    margin-top: -108px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 31%;
+}
+.benefit-5-style img{
+    margin-top: 10%;
+}
+.benefit-5-style h3{
+    margin-top: -108px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 31%;
+}
+.benefit-6-style img{
+    margin-top: 10%;
+}
+.benefit-6-style h3{
+    margin-top: -131px;
+    font-size: 43px;
+    color: #838783;
+    margin-left: 31%;
+}
+.right-tri{
+    margin-top: 10%;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 120px solid transparent;
+  border-bottom: 120px solid transparent; 
+  border-left: 120px solid green;
+}
+.background-color-style{
+    background-color: green;
+    margin-top: 2px;
+}
+.box{
+    background-color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 50px;
+    line-height: 60px;
+}
+.web-style{
+    text-align: center;
+    margin-top: 13%;
+    font-size: 45px;
+    color: #838783;
+}
+.date-style{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 9%;
+    color: #838783;
+}
+.seats-style{
+    font-size: 45px;
+    text-align: center;
+    margin-top: -20px;
+    color: #838783;
+}
+.button-style{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 11%;
+    border-radius: 301px;
+}
+footer{
+    background-color: #272727;
+}
+.footer-style img{
+    margin-left: 4%;
+}
+.footer-style p{
+    color: #cacdca;
+    font-size: 18px;
+    margin-left: 4%;
+}
+.link-style{
+    margin-top: 3%;
+}
+.link-style h2{
+   color: white; 
+   margin-left: 4%;
+}
+.link-style li{
+    color: white;
+    margin-top: 5%;
+    margin-left:10%;
+    list-style: none;
+}
+.map-style iframe{
+    margin-top: 13%;
+    width: 90%;
+    height: 74%;
+}
+.copy-style{
+    color: white;
+}
+.hr-style{
+    border:1px solid green;
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+.career-style h3{
+    margin-top: 17%;
+}
+.life-style p{
+    font-size: 27px;
+}
+.benefit-1-style img{
+    margin-top: 61px;
+}
+.benefit-1-style h3{
+    font-size: 35px;
+    margin-left: 35%;
+}
+.benefit-2-style img{
+    margin-top: 20px;
+}
+.benefit-2-style h3{
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: -80px;
+}
+.benefit-3-style h3{
+    font-size: 35px;
+    margin-left: 35%;
+}
+.benefit-4-style h3{
+    font-size: 35px;
+    margin-left: 35%;
+}
+.benefit-5-style img{
+    margin-top: 20%;
+}
+.benefit-5-style h3{
+    font-size: 34px;
+    margin-left: 35%;
+}
+.benefit-6-style img{
+    margin-top: 20%
+}
+.benefit-6-style h3{
+    font-size: 35px;
+    margin-left: 35%;
+}
+.right-tri{
+    margin-top: 10%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+.career-style h3{
+    margin-top: 18%;
+}
+.life-row-style{
+    margin-top: 33%;
+}
+.life-style h1{
+    margin-top: 4%;
+    font-size: 50px;
+}
+.life-style p{
+    font-size: 23px;
+    margin-left: 1px;
+}
+.benefit-1-style img{
+    margin-top: 40px;
+}
+.benefit-1-style h3{
+    font-size: 25px;
+    margin-left: 31%;
+}
+ .benefit-2-style h3{
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: -85px;
+ }
+.benefit-3-style img{
+    width: 27%;
+    margin-top: 73px;
+}
+.benefit-3-style h3{
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: -60px;
+}
+.benefit-4-style img{
+    margin-top: 13%;
+}
+.benefit-4-style h3{
+    font-size: 25px;
+    margin-left:40%;
+    margin-top: -90px;
+}
+.benefit-5-style img{
+    margin-top: 20%;
+}
+.benefit-5-style h3{
+    font-size: 25px;
+    margin-left: 31%;
+}
+.benefit-6-style img{
+    margin-top: 20%;
+}
+.benefit-6-style h3{
+    font-size: 25px;
+    margin-left: 40%;
+}
+.right-tri{
+    margin-top: 20%;
+}
+.box{
+    line-height: 30px;
+}
+.web-style{
+    font-size: 23px;
+}
+.date-style{
+    font-size: 23px;
+}
+.seats-style{
+    font-size: 23px;
+}
+.map-style iframe{
+    margin-top: 2%;
+    width: 40%;
+    height: 95%;
+}
+}
+@media screen  and (max-width: 767.98px) {
+.career-style h3{
+    margin-top: 25%;
+}
+.life-row-style{
+    margin-top: 73%;
+}
+.life-style h1{
+    margin-top: 4%;
+    font-size: 30px;
+}
+.life-style p{
+    font-size: 23px;
+    margin-left: 1px;
+}
+.button-style{
+    height: 60%;
+}
+.benefit-1-style img{
+    margin-left:35%;
+}
+.benefit-1-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.benefit-2-style img{
+    margin-left:30%;
+}
+ .benefit-2-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 36%;
+ }
+.benefit-3-style img{
+    margin-left:32%;
+}
+.benefit-3-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.benefit-4-style img{
+    margin-left:32%;
+}
+.benefit-4-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 36%;
+}
+.benefit-5-style img{
+    margin-left:40%;
+}
+.benefit-5-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.benefit-6-style img{
+    margin-left:35%;
+}
+.benefit-6-style h3{
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.web-style{
+    font-size: 23px;
+}
+.date-style{
+    font-size: 23px;
+}
+.seats-style{
+    font-size: 23px;
+}
+}

@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <title>form validation</title>
+  <script>
+   function validate(){
+   var username=document.forms["reg"]["uname"].value;
+   var key=document.forms["reg"]["pass"].value;
+   var key2=document.forms["reg"]["pass2"].value;
+   if (username=="" || username.length<4){
+   alert ("username should not be less 4 char");
+   return false;
+   }
+   if (key=="" || key.length<4){
+   alert ("passward should not be less 4 char");
+   return false;
+   }
+   if (key2=="" || key2.length<4){
+   alert ("confirm passward should not be less 4 char");
+   return false;
+   }
+   if (key!=key2){
+   alert ("passward is not match");
+   return false;
+   }
+   }
+  </script>
+ </head>
+
+<body>
+<form name="reg" onSubmit="return validate()">
+<label>username:</label>
+<div>
+<input type="text" name="uname"/>
+</div></br>
+<label>passward:</label>
+<div>
+<input type="passward" name="pass"/>
+</div></br>
+<label>conform pass:</label>
+<div>
+<input type="passward" name="pass2"/>
+</div></br>
+<div>
+<input type="submit" name="submit"/>
+</div>
+</form>
+</body>
+</html>

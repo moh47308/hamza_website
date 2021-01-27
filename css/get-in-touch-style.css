@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black !important;
+}
+.navbar li a:hover{
+    color:#11A2DD !important;
+}
+       /* LOLO-STYLE   */
+.logo-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left:2%;
+}
+       /*  CONTACT HEADING STYLE  */
+.contact-style{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-style h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 12%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.contact-style h3{
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 16%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#link{
+    color: white;
+}
+.box{
+    background-color: #cacdca;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.icon-img-style{
+    width: 35%;
+    height: auto;
+    margin-left: 32%;
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+.hr1-style{
+    border:2px solid blue;
+    margin-top: 5%;
+}
+.any-style h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+    margin-top: 5%;
+}
+.box-2{
+    background-color: green;
+    height: 730px;
+    border-radius: 60px;
+    margin-top: 5%;
+}
+.fullname{
+    position: relative;
+    border-radius: 60px;
+    line-height: 0px;
+    padding: 10px;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.text-style{
+    position: relative;
+    line-height: 60px;
+    border-radius: 30px;
+    padding: 0 22px;
+    font-size: 48px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.btn-style{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: #18e0e9;
+    border-radius: 60px;
+}
+footer{
+    background-color: #272727;
+    margin-top: 5%;
+}
+.footer-style img{
+    margin-left: 4%;
+}
+.footer-style p{
+    color: #cacdca;
+    font-size: 18px;
+    margin-left: 4%;
+}
+.link-style{
+    margin-top: 3%;
+}
+.link-style h2{
+   color: white; 
+   margin-left: 4%;
+}
+.link-style li{
+    color: white;
+    margin-top: 5%;
+    margin-left:10%;
+    list-style: none;
+}
+.map-style iframe{
+    margin-top: 13%;
+    width: 90%;
+    height: 74%;
+}
+.copy-style{
+    color: white;
+}
+.hr-style{
+    border:1px solid green;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+           /* CONTACT STYLE   */
+.contact-style{
+    width: 100%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-style h3{
+    margin-top: 18%;
+}
+.box-2{
+    height: 650px;
+}
+.fullname{
+    margin-left: 5%;
+    font-size: 41px;
+}
+.text-style{
+    margin-left: 5%;
+    font-size: 39px;
+}
+.btn-style{
+    margin-left: 5%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+           /* CONTACT STYLE   */
+.contact-style{
+    width: 100%;
+    height: 300px;
+}
+.contact-style h1{
+    font-size: 45px;
+}
+.contact-style h3{
+    margin-top: 19%;
+    font-size: 25px;
+}
+.box-2{
+    height: 540px;
+}
+.fullname{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.text-style{
+    font-size: 29px;
+    margin-left: 5%;
+}
+.btn-style{
+    margin-left: 5%;
+    width: 20%;
+}
+.map-style iframe{
+    margin-top: 2%;
+    width: 40%;
+    height: 95%;
+}
+}
+@media screen  and (max-width: 767.98px) {
+            /*  CONTACT HEADING STYLE   */
+.contact-style{
+    width: 100%;
+    height:170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-style h1{
+    font-size: 35px;
+    margin-top:12%;
+}
+.contact-style h3{
+    margin-top: 21%;
+    font-size: 17px;
+}
+.any-style h1{
+    font-size: 50px;
+}
+.box-2{
+    height: 400px;
+}
+.fullname{
+    font-size: 13px;
+    margin-left: 8%;
+}
+.text-style{
+    font-size: 12px;
+    margin-left: 8%;
+}
+.btn-style{
+    margin-left: 8%;
+    width: 40%;
+}
+}

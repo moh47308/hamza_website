@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black !important;
+}
+.navbar li a:hover{
+    color:#11A2DD !important;
+}
+       /* LOLO-STYLE   */
+.logo-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left:2%;
+}
+       /*  SERVICE HEADING STYLE  */
+.service-style{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-style h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 12%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.service-style h3{
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 16%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#link{
+    color: white;
+}
+.icon-style img{
+    margin-left: 31%;
+}       
+.web-images-col-style{
+    margin-top: -20%;
+}
+.web-3-style{
+    margin-left: 2%;
+}
+.web-style{
+    position: absolute;
+    font-size: 39px;
+    font-weight: bolder;
+    color: green;
+    margin-left: 26%;
+    margin-top: 37%;
+}
+.wordpress-style{
+   position: absolute;
+    z-index: 10;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 36%;
+    color: green;
+    font-size: 39px;
+    font-weight: bolder;
+}
+.mobile-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 31%;
+    margin-top: 21%;
+    font-size: 39px;
+    font-weight: bolder;
+    color: green;
+}
+.develop-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 23%;
+    margin-top: 37%;
+    font-size: 39px;
+    font-weight: bolder;
+    color: green;
+}
+.website-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 15%;
+    margin-top: 36%;
+    font-size: 39px;
+    color: green;
+    font-weight: bolder;
+}
+.social-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 31%;
+    margin-top: 21%;
+    font-size: 39px;
+    font-weight: bolder;
+    color: green;
+}
+.laptop-img-style img{
+    margin-left: 36%;
+    margin-top: -16%;
+}
+.bg-color{
+    background-color: green;
+    margin-top: 3%;
+}
+.key-style h1{
+    color: white;
+    font-size: 43px;
+    font-weight: bolder;
+    margin-left: 39%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.we-work-style h1{
+    margin-left: 35%;
+    font-weight: bolder;
+    font-size: 43px;
+    margin-top: 2%;
+}
+.approch-style h1{
+    position: absolute;
+    z-index: 10;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 4%;
+    color: white;
+}
+.approch-style p{
+    position: absolute;
+    z-index: 10;
+    margin-left: 10%;
+    margin-right: 21%;
+    margin-top: 15%;
+    font-size: 18px;
+    color: white;
+}
+.require-style{
+    margin-top: 3%;
+    margin-bottom:3%;
+}
+.require-style button{
+    margin-bottom: 5%;
+    border-radius: 7%;
+    height: 97%;
+    width: 90%;
+}
+.require-style img{
+    width: 55%;
+    margin-top: -14%;
+}
+.require-style h3{
+    margin-top: -26%;
+    color: white !important;
+    font-weight: bolder;
+}
+.require-style h1{
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 15%;
+}
+.require-style p{
+    font-size: 19px;
+} 
+footer{
+    background-color: #272727;
+}
+.footer-style img{
+    margin-left: 4%;
+}
+.footer-style p{
+    color: #cacdca;
+    font-size: 18px;
+    margin-left: 4%;
+}
+.link-style{
+    margin-top: 3%;
+}
+.link-style h2{
+   color: white; 
+   margin-left: 4%;
+}
+.link-style li{
+    color: white;
+    margin-top: 5%;
+    margin-left:10%;
+    list-style: none;
+}
+.map-style iframe{
+    margin-top: 13%;
+    width: 90%;
+    height: 74%;
+}
+.copy-style{
+    color: white;
+}
+.hr-style{
+    border:1px solid green;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+.service-style h3{
+    margin-top: 18%;
+}
+.icon-style img{
+    margin-left: 25%;
+}
+.web-style{
+    margin-left: 25%;
+    margin-top: 34%;
+    font-size: 26px;
+}
+.wordpress-style{
+   font-size: 26px;
+}
+.mobile-style{
+    font-size: 26px;
+    margin-top: 21%;
+    margin-left: 31%;
+}
+.develop-style{
+    font-size: 26px;
+    margin-left: 24%;
+    margin-top: 35%;
+}
+.website-style{
+    font-size: 26px;   
+}
+.social-style{
+    font-size: 26px;
+    margin-top: 21%;
+    margin-left: 31%;
+}
+.laptop-img-style img{
+    margin-left: 32%;
+}
+.approch-style h1{
+    font-size: 16px;
+}
+.approch-style p{
+    font-size: 13px;
+} 
+.require-style h1{
+    font-size: 18px;
+}
+.require-style p{
+    font-size: 15px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+.service-style h3{
+    margin-top: 19%;
+}
+.icon-style img{
+    margin-left: 16%;
+}
+.web-images-col-style{
+    margin-top: -20%;
+}
+.web-style{
+    font-size: 20px;
+    margin-top: 32%;
+    margin-left: 28%;
+}
+.wordpress-style{
+   font-size: 20px;
+   margin-left: 16%;
+   margin-top: 32%;
+}
+.mobile-style{
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+.develop-style{
+    font-size: 20px;
+    margin-left: 21%;
+    margin-top: 35%;
+}
+.website-style{
+    font-size: 20px;
+    margin-left: 16%;
+    margin-top: 32%;   
+}
+.social-style{
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 31%;
+}
+.laptop-img-style img{
+    margin-left: 27%;
+}
+.key-style h1{
+    font-size: 43px;
+    margin-left: 28%;
+}
+.we-work-style h1{
+    margin-left: 28%;
+}
+.approch-style h1{
+    font-size: 25px;
+    margin-left: 30%;
+}
+.approch-style p{
+    font-size: 19px;
+    margin-left: 31%;
+    margin-right: 33%;
+    margin-top: 10%;
+}
+.approch-style img{
+    margin-left: 26%;
+}
+.require-style button{
+    height: 230px;
+    width: 100%;
+    height: 100%;
+}
+.require-style img{
+    width: 55%;
+    margin-top: -14%;
+}
+.require-style h3{
+    margin-top: -30%
+    }
+.require-style h1{
+    font-size: 15px;
+}
+.require-style p{
+    font-size: 14px;
+}
+.require-style button:hover{
+    color: green;
+} 
+.map-style iframe{
+    margin-top: 2%;
+    width: 40%;
+    height: 95%;
+}  
+}
+@media (max-width: 767.98px){
+.service-style h1{
+    margin-left:3%;
+}
+.service-style h3{
+    margin-top: 25%;
+    margin-left: 3%;
+}
+.icon-style img{
+    margin-left: 1%;
+}
+.web-images-col-style{
+    margin-top: 2%;
+}
+.web-style{
+    font-size: 18px;
+    margin-top: 32%;
+    margin-left: 28%;
+}
+.wordpress-style{
+   font-size: 18px;
+   width: 100%;
+   text-align: center;
+   transform: translateY(-50%);
+   margin-top: 36%;
+   margin-left: -2%;
+}
+.mobile-style{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    margin-top: 23%;
+    margin-left: -2%;
+}
+.develop-style{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    margin-top: 36%;
+    margin-left: 0px;
+}
+.website-style{
+    font-size: 19px;
+    width: 100%;
+   text-align: center;
+   transform: translateY(-50%);
+   margin-top: 36%;
+   margin-left: -2%;   
+}
+.social-style{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    margin-top: 91px;
+    margin-left: -9px;
+}
+.laptop-img-style img{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.key-style h1{
+    font-size: 39px;
+    margin-left: 2%;
+}
+.we-work-style h1{
+    margin-left: 2%;
+    font-size: 29px;
+}  
+}

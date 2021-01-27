@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>on mouse move</title>
+<style>
+div{
+ width: 250;
+ height: 100;
+ border: 1px solid;
+}
+</style>
+</head>
+<body> 
+  <script>
+  function move(a)
+  {
+     var x = a.clientx;
+	 var y = a.clienty;
+	 var z = "Coordinates : ("+ x +" , "+ y +")";
+	 document.getElementById("iii").innerHTML= z;
+  }
+  </script>
+<div id="iii" onmousemove="move(event)"></div>  
+</body>
+</html>

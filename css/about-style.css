@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black !important;
+}
+.navbar li a:hover{
+    color:#11A2DD !important;
+}
+       /* LOLO-STYLE   */
+.logo-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left:2%;
+}
+       /*  ABOUT HEADING STYLE  */
+.about-style{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-style h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 12%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.about-style h3{
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 16%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#link{
+    color: white;
+}
+       /* MOBILE IMAGE,HEADING AND PARAGRAPH STYLE   */
+.large-btn{
+    border-radius: 60px;
+    width: 50%;
+    height: 10%;
+}
+.mobile-paragraph-style h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.mobile-paragraph-style p{
+    font-size: 18px;
+    margin-top: 5%;
+}
+.mobile-style img{
+    margin-right: -2%;
+}
+       /*OUR MISSION & OUR VISION STYLE    */
+.our-style{
+    background-color:green; 
+    margin-top: 2px;
+}
+.our-style img{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+}
+.our-mission-style h2{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    margin-top: -45%;
+    margin-left: 24%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.our-mission-style p{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    margin-top: -35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+footer{
+    background-color: #272727;
+}
+.footer-style img{
+    margin-left: 4%;
+}
+.footer-style p{
+    color: #cacdca;
+    font-size: 18px;
+    margin-left: 4%;
+}
+.link-style{
+    margin-top: 3%;
+}
+.link-style h2{
+   color: white; 
+   margin-left: 4%;
+}
+.link-style li{
+    color: white;
+    margin-top: 5%;
+    margin-left:10%;
+    list-style: none;
+}
+.map-style iframe{
+    margin-top: 13%;
+    width: 90%;
+    height: 74%;
+}
+.copy-style{
+    color: white;
+}
+.hr-style{
+    border:1px solid green;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+           /* ABOUT STYLE   */
+.about-style{
+    width: 100%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-style h3{
+    margin-top: 18%;
+}
+       /*   MOBILE HEADING AND PARAGRAPH STYLE */
+.mobile-paragraph-style h1{
+    font-size: 25px;
+}
+.mobile-paragraph-style p{
+    font-size: 15px;
+}
+        /*  OUR IMAGE & OUR MISSION STYLE  */
+.our-style{
+    background-color:green; 
+    margin-top: 22px;
+}
+.our-style img{
+    margin-left: -2px;
+}
+.our-mission-style h2{
+margin-top: -50%;
+}
+.our-mission-style p{
+    font-size: 14px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+           /* ABOUT STYLE   */
+.about-style{
+    width: 100%;
+    height: 300px;
+}
+.about-style h3{
+    margin-top: 19%;
+} 
+        /*   MOBILE IMAGE  */
+.mobile-style img{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4%;
+}
+        /*  OUR MISSION IMAGE ,HEADING & PARAGRAPH ATYLE   */
+.our-mission-style img{
+    margin-left: 12%;
+}
+.our-mission-style h2{
+    font-size: 40px;
+    margin-top: -40%;
+}
+.our-mission-style p{
+    font-size: 18px;
+    margin-top: -32%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+    /*  MAP STYLE    */
+.map-style iframe{
+    margin-top: 2%;
+    width: 40%;
+    height: 95%;
+}
+}
+@media screen  and (max-width: 767.98px) {
+            /*  ABOUT HEADING STYLE   */
+.about-style{
+    width: 100%;
+    height:170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-style h1{
+    font-size: 30px;
+    margin-top:8%;
+}
+.about-style h3{
+    margin-top: 15%;
+    font-size: 20px;
+}
+        /*   MOBILE HEADING , PARAGRAPH & IMAGE  */
+.mobile-paragraph-style h1{
+    font-size: 20px;
+}
+.mobile-paragraph-style p{
+    font-size: 15px;
+    margin-top: 5%;
+}
+.mobile-style img{
+    margin-top: 8px;
+}
+        /*  OUR MISSION HEADING & PARAGRAPH STYLE   */
+.our-style img{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 86%;
+}
+.our-mission-style h2{
+    font-size: 20px;
+}
+.our-mission-style p{
+    font-size: 12px;
+    margin-top: -37%;
+}
+}

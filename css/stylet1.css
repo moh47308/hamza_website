@@ -1,0 +1,554 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black !important;
+}
+.navbar li a:hover{
+    color:#11A2DD !important;
+}
+.logo-img{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-left:2%;
+}
+/*who chouse us style*/
+.container-center h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 3%;
+}
+.container-center p{
+	font-size: 25px;
+	color: #828181;
+}
+.laptop-img img{
+	max-width: 100%;
+	height: auto;
+}
+.company-style{ 
+    position: absolute;
+    z-index: 10;
+    margin-left: 16%;
+    margin-top: 1%;
+    color: white;
+    font-weight: bolder;
+}
+.company-style-para{
+    position: absolute;
+    z-index: 10;
+    margin-left: 17%;
+    margin-top: 8%;
+    font-size: 19px;
+    color: white;
+}
+.our-vision-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 16%;
+    margin-top: 23%;
+    color: white;
+    font-weight: bolder;
+}
+.vision-style-para{
+    position: absolute;
+    z-index: 10;
+    margin-left: 17%;
+    margin-top: 30%;
+    font-size: 19px;
+    color: white;
+}
+.mission-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 16%;
+    margin-top: 45%;
+    color: white;
+    font-weight: bolder;
+}
+.mission-style-para{
+    position: absolute;
+    z-index: 10;
+    margin-left: 17%;
+    margin-top: 53%;
+    font-size: 19px;
+    color: white;
+}
+.service-heading {
+    background-color: green;
+    padding: 15px 2px 15px 2px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+}
+.web-design-img-style{
+	margin-top: -15%;
+    margin-left: 1%;
+    width: 100%;
+}
+.word-press-img-style{
+	margin-top: 2rem;
+    margin-left: 1rem;
+}
+.mobile-app-img-style{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.web-develop-img-style{
+    margin-left: 1rem;
+    margin-top: -6.5rem;
+    width: 94%;
+}
+.mobile-web-img-style{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 94%;
+}
+.social-media-img-style{
+	margin-top: 1.5rem;
+    width: 94%;
+    margin-left: 1rem;
+}
+.web-heading-style{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 27%;
+    margin-top: 21%;
+}
+.wordpress-heading-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 14%;
+    margin-top: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mobile-heading-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 34%;
+    margin-top: 27%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.develop-heading-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 24%;
+    margin-top: 21%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.website-heading-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 13%;
+    margin-top: 30%;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.social-heading-style{
+    position: absolute;
+    z-index: 10;
+    margin-left: 30%;
+    margin-top: 25%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+
+}
+.portfolio-style h2{
+    background:white;
+    color: green;
+    font-size:65px;
+    font-weight: bolder;
+    padding: 70px;
+}
+.more-work-style h2{
+    position: absolute;
+    z-index: 10;
+    margin-top: 11%;
+    margin-left: 23%;
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid white;
+    padding: 0 12px;
+}
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+.man-img-style{
+	border-radius: 50%;
+	width: 50%;
+	height: 28%;
+	margin-top: 66%;
+	margin-left: 61%;
+}
+.testimonial-style h1{
+    color: white;
+    font-size: 65px;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+.testimonial-style p{
+	color: white;
+	font-size: 20px;
+}
+.testimonial-style h2{
+    color: black;
+}
+.testimonial-style h4{
+	color:#39f114;
+    margin-bottom: 3rem;
+}
+footer{
+	background-color: #272727;
+}
+.footer-style img{
+	margin-left: 4%;
+}
+.footer-style p{
+	color: #cacdca;
+	font-size: 18px;
+	margin-left: 4%;
+}
+.link-style{
+	margin-top: 3%;
+}
+.link-style h2{
+   color: white; 
+   margin-left: 4%;
+}
+.link-style li{
+	color: white;
+	margin-top: 5%;
+	margin-left:10%;
+	list-style: none;
+}
+.map-style iframe{
+	margin-top: 13%;
+    width: 90%;
+    height: 74%;
+}
+.copy-style{
+	color: white;
+}
+.hr-style{
+	border:1px solid green;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+.container-center p{
+    font-size: 21px;
+}
+.company-style{
+    font-size: 30px;
+}
+.company-style-para{
+    font-size: 15px;
+}
+.our-vision-style{
+    font-size: 30px;
+}
+.vision-style-para{
+    font-size: 15px;
+}
+.mission-style{
+    font-size: 30px;
+}
+.mission-style-para{
+    font-size: 15px;
+}
+.web-develop-img-style{
+    margin-left: 1rem;
+    margin-top:-5.4rem;
+    width: 94%;
+}
+.web-heading-style{
+    font-size: 27px;
+    margin-left: 25%;
+}
+.wordpress-heading-style{
+    font-size: 27px;    
+}
+.mobile-heading-style{
+    font-size: 27px;   
+}
+.develop-heading-style{
+    font-size: 27px;
+    margin-left: 20%;
+}
+.website-heading-style{
+    font-size: 27px;    
+}
+.social-heading-style{
+    font-size: 27px;    
+}
+.portfolio-style h2{
+    padding: 41px;
+}
+.more-work-style h2{
+    margin-top: 8%;
+    margin-left: 11%;
+}
+.slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+ }
+ .man-img-style{
+    border-radius: 50%;
+    width: 64%;
+    height: 39%;
+    margin-top: 25%;
+    margin-left: 58%;
+}
+.testimonial-style h1{
+    font-size: 30px;
+    margin-top: 0rem;
+}
+.testimonial-style p{
+    font-size: 15px;
+}
+.testimonial-style h2{
+    font-size: 
+}
+.testimonial-style h4{
+    color:#39f114;
+    margin-bottom: 0rem;
+} 
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+.company-style{
+    font-size: 23px;
+}
+.company-style-para{
+    font-size: 12px;
+}
+.our-vision-style{
+    font-size: 23px;
+}
+.vision-style-para{
+    font-size: 12px;
+}
+.mission-style{
+    font-size: 23px;
+}
+.mission-style-para{
+    font-size: 12px;
+}
+.service-heading{
+    padding: 10px 1px 10px 1px;
+    font-size: 36px;
+}
+.web-develop-img-style{
+    margin-top: -4rem;
+}
+.web-heading-style{
+    font-size: 20px;
+}
+.wordpress-heading-style{
+    font-size: 20px;
+    margin-top: 33%;
+    margin-left: 14%;    
+}
+.mobile-heading-style{
+    font-size: 20px;   
+}
+.develop-heading-style{
+    font-size: 20px;
+    margin-left: 22%;
+}
+.website-heading-style{
+    font-size: 20px;
+    margin-top: 33%;
+    margin-left: 14%    
+}
+.social-heading-style{
+    font-size: 20px;    
+}
+.portfolio-style h2{
+    margin-left: 20%;
+}
+.more-work-style img{
+    width: 100%;
+}
+.slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+ }
+ .man-img-style{
+    margin-top: 57%;
+    margin-left: 46%;
+    height: 40%;
+    width: 90%;
+}
+.testimonial-style h1{
+	font-size: 32px;
+	margin-left: 1%;
+    margin-top: 0rem;
+}
+.testimonial-style p{
+    font-size: 12px;
+    margin-left: 8%; 
+}
+.testimonial-style h2{
+   font-size: 13px;
+}
+.testimonial-style h4{
+   font-size: 13px;
+   margin-bottom: 0rem;
+}
+.footer-style p{
+	font-size: 20px;
+	margin-left: 4%;
+}
+.map-style iframe{
+    margin-top: 2%;
+    width: 40%;
+    height: 95%;
+}
+}
+@media (max-width: 767.98px){
+.company-style{
+    font-size: 20px;
+}
+.company-style-para{
+    font-size: 12px;
+}
+.our-vision-style{
+    font-size: 20px;
+}
+.vision-style-para{
+    font-size: 12px;
+}
+.mission-style{
+    font-size: 20px;
+}
+.mission-style-para{
+    font-size: 12px;
+}
+.web-design-img-style{
+	margin-top: 0%;
+	margin-left:-0.6rem;
+}
+.web-develop-img-style{
+    margin-top:0rem;
+}
+.word-press-img-style{
+	margin-top: 2rem;
+    margin-left: -0.3rem;
+}
+.mobile-app-img-style{
+    margin-top: 2rem;
+    margin-left: -0.3rem;
+}
+.web-heading-style{
+    font-size:19px;
+    margin-left: 27%;
+    margin-top: 35%;
+}
+.wordpress-heading-style{
+    font-size: 19px;
+    margin-top: 33%;
+    margin-left: 14%;    
+}
+.mobile-heading-style{
+    font-size: 19px;
+    margin-left: 29%;
+    margin-top: 29%;   
+}
+.develop-heading-style{
+    font-size: 19px;
+    margin-left: 23%;
+    margin-top: 39%;
+}
+.website-heading-style{
+    font-size: 19px;
+    margin-top: 33%;
+    margin-left: 17%    
+}
+.social-heading-style{
+    font-size: 19px;
+    margin-left: 30%;
+    margin-top: 27%;    
+}
+.portfolio-style h2{
+    font-size:30px;
+    padding: 102px;
+    margin-left: 10%;
+}
+.more-work-style h2{
+    margin-top: 10%;
+    margin-left: 30%;
+    font-size: 30px;
+    padding: 0 5px;
+}
+.slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+#carouselExampleControls{
+    display: none;
+}
+.man-img-style{
+	border-radius: 50%;
+    margin-top: 6%;
+    margin-left: 25%;
+    height: 100%;
+    width: 40%;
+}
+.testimonial-style h1{
+	font-size: 40;
+    margin-left: 10%;
+}
+.testimonial-style p{
+    font-size: 15px;
+    margin-left: 2%; 
+}
+.testimonial-style h2{
+   font-size: 18px;
+   margin-left: 2%; 
+}
+.testimonial-style h4{
+   font-size: 19px;
+   margin-left: 2%;
+}
+.map-style iframe{
+    margin-left: 4%;  
+}
+

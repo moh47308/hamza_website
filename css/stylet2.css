@@ -1,0 +1,548 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.upper-img img{ 
+   margin-top: 10px;
+   width: 35%;
+   height:50%;
+}
+.upper-img1 img{ 
+   margin-top: 10px;
+   width: 35%;
+   height:50%;
+}
+.upper-paragraph p{
+   margin-top: 10px;
+   margin-left: -40px;
+   font-size: 20px;
+   color: white;
+}
+.upper-paragraph1 p{
+   margin-top: 10px;
+   margin-left: -40px;
+   font-size: 20px;
+   color: white;
+}
+/*       navbar*/
+.logo-img{
+	width: 10%;
+	height: 100%;
+	float: left;
+	margin-left:2%;
+}
+/* upper img style*/
+.right-heading{
+	color: white;
+	margin-top: 6%;
+}
+.right-heading h1{
+	margin-left: 100px;
+	font-size: 100px;
+	font-weight: bold;
+}
+.right-paragraph{
+	color: white;
+}
+.right-paragraph p{
+	margin-left: -20px;
+	font-size: 14px;
+}
+/*who chouse us style*/
+.container-center h1{
+	text-align: center;
+	font-weight: bold;
+}
+.container-center p{
+	font-size: 28px;
+	color: #828181;
+}
+/*company, vision and mission style*/
+.company-style h1{
+	color: white;
+	margin-top: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.company-style p{
+	color: white;
+	font-size: 18px;	
+}
+.vision-style h1{
+	color: white;
+    font-size: 25;
+    margin-top: 5%;
+	font-weight: bold;
+}
+.vision-style p{
+	color: white;
+	font-size: 15px;
+}
+.mission-style h1{
+	color: white;
+	margin-top: 60px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.mission-style p{
+	color: white;
+	font-size: 18px;
+	
+}
+/* service web-design, web-develop ........ and last social media style*/
+.service-pic-style{
+	width: 60%;
+	height: 110%;
+	margin-left: 70%;
+	margin-top: -4%;
+}
+.service-style{
+	position: absolute;
+    margin-top: -10.5%;
+    z-index: 10;
+    margin-left: 33%;
+    font-weight: bold;
+    font-size: 62px;
+    color: white;
+}
+.web-design-style{
+	width: 100%;
+    margin-top: -25%;
+}
+.world-press-style{
+	width: 99%;
+    margin-left: 3%;
+    margin-top: 25px;
+}
+.mobile-app-style{
+	width: 98%;
+	margin-left:2%;
+	margin-top: 25px;
+}
+.web-develop-style{
+	width: 92%;
+    margin-top: -28%;
+    margin-left: 3%;
+}
+.mobile-web-style{
+	width: 93%;
+    margin-left: 3%;
+    margin-top: 25px;
+}
+.social-media-style{
+	width: 93%;
+	margin-left:4%;
+	margin-top: 18px;
+}
+@media (max-width: 575.98px) { 
+ .upper-img img{
+    width: 4%;
+    margin-left: 10%;
+    margin-top: 2;
+    height: 60%;
+}
+.upper-paragraph p{
+    font-size: 14;
+    margin-left: 17%;
+    margin-top: -20px;
+}
+.upper-img1 img{ 
+    margin-top: -33;
+    width: 12%;
+    height: 100%;
+    margin-left: 64%;
+}
+.upper-paragraph1 p{
+    margin-left: 80%;
+    margin-top: -44;
+    font-size: 9;
+}
+.logo-img{
+	width: 10%;
+	height: 100%;
+	margin-left: 2%;
+}
+.header{
+	background-color:white;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 10;
+	margin-top: -30px;
+}
+.menu li a{
+	display: none;
+}
+.right-heading{
+	color: white;
+	margin-top: 6%;
+}
+.right-heading h1{
+    font-size: 114%;
+    margin-left: 72%;
+    margin-top: -13%;
+}
+.right-paragraph{
+	color: white;
+}
+.right-paragraph p{
+    margin-left: 73%;
+    margin-top: -3%;
+    font-size: 9px;
+}
+.cont-style{
+	margin-top: -540px;
+}
+.container-center h1{
+	font-size: 28px
+}
+.container-center p{
+	font-size: 17px;
+	color: #828181;
+}
+.company-style h1{
+	color: white;
+    font-size: 10;
+    margin-left: 58%;
+    margin-top: 1%;
+	font-weight: bold;
+}
+.company-style p{
+	color: white;
+    font-size: 8;
+    margin-left: 58%;
+    margin-top: -3%;
+}
+.vision-style h1{
+	color: white;
+    font-size: 15;
+    margin-left: 60%;
+    margin-top: 0%;
+	font-weight: bold;
+}
+.vision-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top:-2%;
+	font-size: 12px;
+}
+.mission-style h1{
+	color: white;
+	font-size: 15;
+	margin-left: 60%;
+    margin-top: -2%;
+	font-weight: bold;
+}
+.mission-style p{
+	color: white;
+	margin-left: 60%;
+	font-size: 12px;
+	
+}
+}
+@media (min-width: 575.98px) and (max-width: 767px) { 
+.upper-img img{
+    margin-top: 2;
+    margin-left: -151;
+    width: 60%;
+    height: 40%;
+}
+.upper-paragraph p{
+    font-size: 14;
+    margin-left: -160px;
+    margin-top: -2px;
+}
+.upper-img1 img{ 
+    margin-top: 13%;
+    width: 60%;
+    height: 40%;
+    margin-left: -285%;
+}
+.upper-paragraph1 p{
+   font-size: 13PX;
+    margin-top: 1PX;
+    margin-left: -195%;
+}
+.logo-img{
+	width: 10%;
+	height: 100%;
+	margin-left:2%;
+}
+.header{
+	background-color:white;
+	margin-top: -1%;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	z-index: 10;
+}
+.menu li a{
+	display: none;
+} 
+.right-heading{
+	color: white;
+	margin-top: 15%;
+}
+.right-heading h1{
+    font-size: 176%;
+    margin-left: 70%;
+    margin-top: -65;
+}
+.right-paragraph{
+	color: white;
+}
+.right-paragraph p{
+	margin-left:71%;
+	margin-top: -1%;
+	font-size: 11px;
+}
+.cont-style{
+	margin-top: -302;
+}
+.container-center p{
+	font-size: 23px;
+	color: #828181;
+}
+.company-style h1{
+	color: white;
+    font-size: 15;
+    margin-top: 1%;
+    margin-left: 60%;
+	font-weight: bold;
+}
+.company-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top: -2%;
+	font-size: 10px;
+}
+.vision-style h1{
+	color: white;
+    font-size: 15;
+    margin-left: 60%;
+    margin-top: 0%;
+	font-weight: bold;
+}
+.vision-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top:-2%;
+	font-size: 12px;
+}
+.mission-style h1{
+	color: white;
+	font-size: 15;
+	margin-left: 60%;
+    margin-top: -1%;
+	font-weight: bold;
+}
+.mission-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top: -1%;
+	font-size: 12px;
+	
+}
+}
+@media (min-width: 768px) and (max-width: 990px) {
+.upper-img img{
+    margin-left: -20px;
+    height: 24;
+    margin-top: 2;
+}
+.upper-paragraph p{
+    font-size: 13;
+    margin-top: 5;
+}
+.upper-img1 img{ 
+     margin-left: -15px;
+     width: 50%
+    height: 45%;
+    margin-top:13%;
+}
+.upper-paragraph1 p{
+   font-size: 13PX;
+    margin-top: 5PX;
+}
+.logo-img{
+	width: 10%;
+	height: 100%;
+	margin-left: 10%;
+	margin-top:0%;
+}
+.logo-img{
+	width: 10%;
+	height: 100%;
+	float: left;
+	margin-left:2%;
+}
+.menu li a{
+	display: none;
+}
+.right-heading{
+	color: white;
+	margin-top: 1%;
+}
+.right-heading h1{
+    font-size: 300%;
+    margin-left: 63%;
+    margin-top: -1%;
+}
+.right-paragraph{
+	color: white;
+}
+.right-paragraph p{
+	margin-left:69%;
+	margin-top: -1%;
+	font-size: 14px;
+}
+.cont-style{
+	margin-top: -250;
+}
+.container-center p{
+	font-size: 23px;
+	color: #828181;
+}
+
+.company-style h1{
+	color: white;
+    font-size: 15;
+    margin-top: 1%;
+    margin-left: 60%;
+	font-weight: bold;
+}
+.company-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top: -1%;
+	font-size: 12px;
+}
+.vision-style h1{
+	color: white;
+    font-size: 15;
+    margin-left: 60%;
+    margin-top: 4%;
+	font-weight: bold;
+}
+.vision-style p{
+	color: white;
+	margin-left: 60%;
+	margin-top:-1%;
+	font-size: 12px;
+}
+.mission-style h1{
+	color: white;
+	font-size: 15;
+	margin-left: 60%;
+    margin-top: 1%;
+	font-weight: bold;
+}
+.mission-style p{
+	color: white;
+	margin-left: 60%;
+	font-size: 12px;
+	
+}  
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.upper-img img{ 
+   margin-left: -10;
+   margin-top: 6px;
+}
+.upper-paragraph p{
+    font-size: 15;
+    margin-top: 7px;
+}
+.upper-img1 img{ 
+     margin-left: -10px;
+   margin-top: 6px;
+}
+.upper-paragraph1 p{
+  font-size: 15;
+    margin-top: 7px;
+}
+.logo-img{
+	width: 10%;
+	height: 100%;
+	float: left;
+	margin-left:2%;
+}
+.header{
+	background-color:white;
+	margin-top: -1%;
+	width: 100%;
+	height: 80px;
+}
+.menu{
+	float:right;
+}
+.menu li{
+	display: inline-block;
+	line-height: 80px;
+}
+.menu li a{
+	color: #373a37;
+	font-size: 13px;
+	text-transform:uppercase;
+	font-weight: bolder;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+a.active, a:hover{
+	background-color:#1ab2cd;
+	color:white;
+	text-decoration: none;
+	transition: .5s;
+}
+.right-heading{
+	color: white;
+	margin-top: 6%;
+}
+.right-heading h1{
+    font-size: 64px;
+}
+.right-paragraph{
+	color: white;
+}
+.right-paragraph p{
+	font-size: 14px;
+}
+.cont-style{
+	margin-top:-150;
+}
+.container-center p{
+	font-size: 23px;
+	color: #828181;
+}
+.company-style h1{
+	color: white;
+    font-size: 25;
+    margin-top: 10;
+	font-weight: bold;
+}
+.company-style p{
+	color: white;
+	font-size: 15px;
+}
+.vision-style h1{
+	color: white;
+    font-size: 25;
+    margin-top: 5%;
+	font-weight: bold;
+}
+.vision-style p{
+	color: white;
+	font-size: 15px;
+}
+.mission-style h1{
+	color: white;
+	font-size: 25;
+    margin-top: 10;
+	font-weight: bold;
+}
+.mission-style p{
+	color: white;
+	font-size: 15px;
+	
+}  
+}

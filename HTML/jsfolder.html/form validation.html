@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>form validation</title>
+  <script>
+   function validate(){
+   var username=document.forms["register"]["uname"].value;
+   if (username==""){
+   alert("username should not be empty!");
+   return false;
+   }
+   }
+  </script>
+ </head>  
+
+<body>
+<form name="register" onsubmit="return validate">
+<label>Username:</label>
+<div>
+<input type="text" name="uname" size="20px"/>
+</div></br>
+<div>
+<input type="submit" name="submit"/>
+</div>
+</form>
+</body>
+</html>

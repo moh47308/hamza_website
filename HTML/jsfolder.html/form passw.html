@@ -1,0 +1,43 @@
+<html>
+ <head>
+  <title>form validation</title>
+  <script>
+   function validate(){
+   var username=document.forms["register"]["uname"].value;
+   var key=document.forms["register"]["pass"].value;
+   var key2=document.forms["register"]["pass2"].value;
+   if (username==""){
+   alert("username should not be empty!");
+   return false;
+   }
+    if (key==""){
+   alert("passward should not be empty!");
+   return false;
+   }
+    if (key2==""){
+   alert("passward should not be empty!");
+   return false;
+   }
+   }
+  </script>
+ </head>  
+<body>
+<form name="register" onsubmit="return validate()">
+<label>Username:</label>
+<div>
+<input type="text" name="uname" size="20px"/>
+</div></br>
+<label>passward:</label>
+<div>
+<input type="passward" name="pass" size="20px"/>
+</div></br>
+<label>conform:</label>
+<div>
+<input type="passward" name="pass2" size="20px"/>
+</div></br>
+<div>
+<input type="submit" name="submit"/>
+</div>
+</form>
+</body>
+</html>

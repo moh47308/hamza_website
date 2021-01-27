@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Date Method</title>
+</head>
+<body>
+<script>
+    //new date
+   var today = new Date();  
+  document.write(today + "</br>" )
+    //---getDate
+  var x = today.getDate();  
+  document.write("date=>"+  x + "</br>")
+  //---getmonth
+  var x = today.getMonth();  
+  document.write("month=>"+ x + "</br>")
+  //---gethours
+  var x = today.getHours();  
+  document.write("gethours=>"+ x + "</br>")
+   //---getminutes
+  var x = today.getMinutes();  
+  document.write("getMinutes=>"+ x + "</br>")
+   //---gethseconds
+  var x = today.getSeconds();  
+  document.write("getSeconds=>"+ x + "</br>")
+     //---FullYear
+  var x = today.getFullYear();  
+  document.write("getFullYear=>"+ x + "</br>")
+     //---gettime
+  var x = today.getTime();  
+  document.write("gettime=>"+ x + "</br>")
+     //---getTimezoneOffset
+  var x = today.getTimezoneOffset();  
+  document.write("getTimezoneOffset=>"+ x + "</br>")
+  //--set
+  today.setDate(5);
+  today.setMonth(1);
+  today.setFullYear(1999);
+  today.setHours(12);
+  today.setMinutes(30);
+  today.setSeconds(00);
+ document.write(today +"</br>")  
+</script>
+</body>
+</html>

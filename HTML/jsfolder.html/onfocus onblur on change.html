@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>onfocus onblur onchange</title>
+</head>
+<body> 
+  <script>
+  function foc(a)
+  {
+     a.style.background="yellow";
+	 a.style.border="2px solid black";
+  }
+  function ham(a)
+  {
+     a.style.background="gray";
+	 a.style.border="1px solid black";
+  }
+  function cha(a)
+  {
+     a.style.background="blue"
+  }
+  </script>
+<input type="text" size="40" onfocus="foc(this)" onblur="ham(this)"
+onchange="cha">  
+</body>
+</html>
